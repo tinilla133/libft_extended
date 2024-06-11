@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fvizcaya <fvizcaya@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fvizcaya <fvizcaya@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/12 14:53:51 by fvizcaya          #+#    #+#             */
-/*   Updated: 2024/05/02 18:39:19 by fvizcaya         ###   ########.fr       */
+/*   Updated: 2024/06/11 10:33:40 by fvizcaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,6 @@ char	*ft_strjoin_i(char const *s1, char const *s2)
 		*(buff++) = *(s2++);
 	*buff = '\0';
 	return (buff - bufflen);
-}
-
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
 }
 
 int	ft_streolpos(const char *str)

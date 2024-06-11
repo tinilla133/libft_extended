@@ -6,13 +6,13 @@
 /*   By: fvizcaya <fvizcaya@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/12 14:53:44 by fvizcaya          #+#    #+#             */
-/*   Updated: 2024/06/03 20:07:54 by fvizcaya         ###   ########.fr       */
+/*   Updated: 2024/06/05 18:03:42 by fvizcaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_multifd.h"
 
-char	*get_next_line(int fd)
+char	*get_next_line_multifd(int fd)
 {
 	static char		*s_buffer[MAX_NUM_FD];
 	char			**ptr_s_buffer;
